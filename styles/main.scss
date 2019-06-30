@@ -13,6 +13,10 @@ body {
   font-family: "Open Sans", "Helvetica";
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .self-typed {
   font-size: 31px;
   font-weight: bold;
@@ -27,4 +31,8 @@ body {
 .base-page {
   padding-top: 150px;
   color: white;
+}
+
+.activeLink {
+  color: green;
 }
